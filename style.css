@@ -342,7 +342,9 @@ h1 span {
     height: 80vh;
     width: 60vh;
     display: flex;
-    flex: ;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .sec21 {
@@ -350,7 +352,47 @@ h1 span {
     width: 100vh;
 }
 
+.bloque2 h1 {
+    columns: #424345;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    line-height: 48px;
+    margin: Opx 0px 50px;
+    font-weight: 700;
+    text-align: left;
+    text-decoration: none solid rgb(66, 67, 69);
+}
+
 .sec22 {
     height: 60vh;
     width: 100vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.sec221,
+.sec222,
+.sec223,
+.sec224 {
+    width: 50vh;
+    height: 50vh;
+}
+
+.sec221 img,
+.sec222 img,
+.sec223 img,
+.sec224 img {
+    width: 50px;
+    height: 50px;
+}
+
+h5 {
+    color: #424345;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    line-height: 24px;
+    margin: 0Px 0px 8px;
+    font-weight: 700;
+    text-decoration: none solid rgb(66, 67, 69);
+    text-align: center;
 }
