@@ -160,12 +160,6 @@ ul {
     display: flex;
 }
 
-a {
-    text-decoration: none;
-    height: 80;
-    width: 20%;
-}
-
 .cont2 {
     height: 50vh;
     width: 100vw;
@@ -253,6 +247,9 @@ h1 span {
     height: 50px;
     width: 250px;
     border-radius: 15px;
+    font-weight: 700;
+    font-style: normal;
+    text-decoration: none solid rgb(255, 255, 255);
 }
 
 .cont24 {
