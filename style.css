@@ -31,7 +31,16 @@ width: 100%;
     align-items: center;
     background-image: url("images/hero-background.jpg");
     background-size: cover;
+    text-align: left ;
+    text-decoration: none solid rgba(24,0, 39, 0.87);
+    font-weight: 400;
+    padding: 100px 0px 133.8px;
+    vertical-align : baseline ;
+    line-height: 24px;
+    font-size: 16px ;
+    font-family: 'Roboto', sans-serif ;
 
+    color : rgba(24,0, 39, 0.87)
 }
 
 
@@ -97,34 +106,120 @@ a {
 }
 h1{
        color: #ffffff;
+   font-size: 71px;
+   font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 900;
+    line-height: 85.404px;
+    vertical-align: baseline;
+
+    text-decoration:none solid rgb(255,255,255);
+
+}
+
+
+h1 span{
+
+color:#ffe64d;
+font-family: 'Montserrat', sans-serif;
+line-height: 85.404px;
+vertical-align: baseline;
+font-weight: 900;
+text-transform: uppercase;
+text-decoration: none solid rgb(255,230,77);
+text-align: center;
+
+
+}
+
+#qualifie{
+ /*  font-weight: bold; 
+   color: #ffe64d;
    font-size: 80px;
+
+   text-align: center;
+   text-transform: uppercase; */
+   
+
+    font-size: 80px;
    font-family: 'Montserrat';
     text-transform: uppercase;
     text-align: center;
-    font-weight: bold;
+    font-weight: 900;
+    text-decoration: non solid rgb (255,230,77);
 
 }
-.qualifie{
-   font-weight: bold; 
-   color: #ffe64d;
-   font-size: 80px;
-   font-family: 'Montserrat';
-   text-align: center;
-   text-transform: uppercase;
-   
-}
 .cont23{
+
+    color: #180027;
+    
+    font-size: 16px;
+   font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 400;
+    text-decoration: none solid rgba(24,0, 39, 0.87);
+    line-height: 24px;
+    vertical-align: baseline;
+
+
+}
+
+.cont23 a{
+
+color: #ffffff;
+    font-size: 20px;
+   font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 700;
+    text-decoration: none solid rgb(255,255,255);
+    line-height: 30px;
+    vertical-align: middle;
+    margin : 24px 8px 0px;
+    padding: 15px 25px;
+
+
 
 }
 
 .cont24{
 
+
+
 }
+
+.cont4 img{
+
+    font-family: 'Roboto';
+    font-size: 50px;
+    line-height: 75px;
+    vertical-align: middle;
+    font-weight: 400;
+    text-align: left ;
+    color: #ffffff;
+
+}
+
+
+
 
 .cont4{
 
-     height: 10vh;
-    width: 100vh;
+        color: #180027;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    font-size: 16px;
+    vertical-align: baseline;
+    margin : 48px 0px 0px;
+    vertical-align: baseline ;
+    margin: 48px 0px 0px;
+    text-decoration:rgba(24,0, 39, 0.87);
+    text-align: left;
+
 }
 
 .cont5{
