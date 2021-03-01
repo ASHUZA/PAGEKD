@@ -646,3 +646,235 @@ h5 {
     text-decoration: none solid rgb(255, 255, 255);
     margin-top: 500px;
 }
+
+
+/* partie du code reservé au bloque 5*/
+
+.bloque5 {
+    height: 110vh;
+    width: 100vw;
+    background-color: rgb(217, 41, 80);
+    text-align: left;
+    text-decoration: none solid rgb(255, 255, 255);
+    font-weight: 400;
+    padding: 100px 0px;
+    vertical-align: baseline;
+    line-height: 24px;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.em1 {
+    width: 80vw;
+    height: 10vh;
+}
+
+.bloque5 h1 {
+    font-family: 'Mntserrat', sans-serif;
+    font-size: 40px;
+    margin: 0px 0px 50px;
+    font-weight: 700;
+    text-decoration: none solid rgb(255, 255, 255);
+    text-align: center;
+    width: 100%;
+    text-transform: none;
+    font-weight: bold;
+}
+
+.em2 {
+    width: 90vw;
+    height: 90vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.em21,
+.em22,
+.em23 {
+    width: 25vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.em211,
+.em221,
+.em231 {
+    width: 100%;
+    height: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+}
+
+.em211 img,
+.em221 img,
+.em231 img {
+    width: 98%;
+    height: 100%;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.em212,
+.em222,
+.em232 {
+    width: 100%;
+    height: 10%;
+}
+
+.em213,
+.em223,
+.em233 {
+    width: 100%;
+    height: 10%;
+}
+
+.em212 p,
+.em222 p,
+.em232 p {
+    font-size: 11px;
+    font-family: 'Montserrat';
+    text-transform: none;
+    text-align: left;
+    font-weight: normal;
+    font-style: normal;
+    font-variant: normal;
+    line-height: 16, 8px;
+    text-decoration: none solid rgb (255, 255, 255);
+}
+
+.em213 p,
+.em223 p,
+.em233 p {
+    background-color: #e95159;
+    font-size: 10px;
+}
+
+.em213,
+.em223,
+.em233 {}
+
+
+/*code pour le bloque 6*/
+
+.bloque6 {
+    height: 100vh;
+    width: 100vw;
+    background-color: #ffffff;
+    text-align: left;
+    text-decoration: none solid rgba(24, 0, 39, 0.87);
+    padding: 100px 0px;
+    line-height: 24px;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ag1 {
+    height: 10vh;
+    width: 90vw;
+}
+
+.bloque6 h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    margin: 0px 0px 50px;
+    font-weight: 700;
+    text-decoration: none solid rgb(255, 255, 255);
+    text-align: center;
+    width: 100%;
+    text-transform: none;
+    font-weight: bold;
+    color: #424345;
+}
+
+.ag2 {
+    width: 95vw;
+    height: 90vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ag21 {
+    width: 55%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.ag22 {
+    width: 42%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.ag211,
+.ag221 {
+    width: 100%;
+    height: 8%;
+}
+
+.ag211 {
+    background-color: #db4b50;
+}
+
+.ag221 {
+    background-color: #331140;
+}
+
+.ag211 h3,
+.ag221 h3 {
+    color: #ffffff;
+    font-size: 28px;
+    line-height: 33.6px;
+    margin: 0px 0px 8px;
+    font-weight: 700;
+    text-decoration: none solid rgb(255, 255, 255);
+    text-align: left;
+    display: flex;
+    align-items: center;
+}
+
+.ag212,
+.ag222 {
+    width: 100%;
+    height: 60%;
+    background-color: #f1f0f3;
+}
+
+.ag212 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.ag212 .agn {
+    width: 25%;
+    height: 30%;
+}
+
+.ag212 img {
+    width: 20px;
+    height: 20px;
+}
