@@ -533,9 +533,11 @@ h5 {
 
 .boul1 {
     width: 80%;
-    height: 30%;
+    height: 10%;
     display: flex;
     align-items: center;
+    text-align: center;
+    margin-top: 2px;
 }
 
 .boul1 h1 {
@@ -546,27 +548,37 @@ h5 {
     line-height: 48px;
     text-align: center;
     font-weight: 700;
+    font-style: normal;
+    text-transform: none;
+    text-decoration: none;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .boul2 {
-    width: 80%;
+    width: 95%;
     height: 60%;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
+    margin-top: 50px;
 }
 
 .boul21,
 .boul22 {
-    width: 50%;
-    height: 100%;
+    width: 600px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
 }
 
 .boul211,
 .boul221 {
     width: 100%;
-    height: 10%;
+    height: 3%;
 }
 
 .boul211 {
@@ -579,8 +591,8 @@ h5 {
 
 .boul212,
 .boul222 {
-    width: 100%;
-    height: 90%;
+    width: 600px;
+    height: 250px;
     background-color: rgb(255, 255, 255);
     padding: 20px;
     text-align: center;
@@ -588,13 +600,18 @@ h5 {
 
 .boul212 h3,
 .boul222 h3 {
-    width: 100%;
-    height: 90%;
+    width: 70%;
+    height: 50px;
     color: #d92950;
     font-size: 28px;
     font-family: 'Montserrat', sans-serif;
     margin: 0px 0px 12px;
     text-align: center;
+    text-decoration: none;
+    font-style: normal;
+    text-transform: none;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .boul212 p,
@@ -602,16 +619,20 @@ h5 {
     color: #180027;
     font-family: 'Montserrat', sans-serif;
     font-size: 16px;
-    margin: 0px 0px 16px;
+    margin: 10px 10px 16px;
     text-align: center;
-    font-weight: 400;
+    font-weight: normal;
     text-decoration: none solid rgba(24, 0, 39, 0.87);
+    font-style: normal;
+    text-transform: none;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .boul212 a,
 .boul222 a {
-    background: #fff;
-    color: #d92950;
+    background: #d92950;
+    color: #fff;
     text-transform: uppercase;
     padding: 15px 25px;
     vertical-align: middle;
@@ -623,4 +644,5 @@ h5 {
     font-weight: 700;
     font-style: normal;
     text-decoration: none solid rgb(255, 255, 255);
+    margin-top: 500px;
 }
