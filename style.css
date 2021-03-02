@@ -460,7 +460,7 @@ h5 {
     color: rgb(255, 255, 255);
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -788,7 +788,7 @@ h5 {
     width: 90vw;
 }
 
-.bloque6 h1 {
+.ag1 h1 {
     font-family: 'Montserrat', sans-serif;
     font-size: 40px;
     margin: 0px 0px 50px;
@@ -803,29 +803,29 @@ h5 {
 
 .ag2 {
     width: 95vw;
-    height: 90vh;
+    height: 70vh;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: center;
 }
 
 .ag21 {
-    width: 55%;
+    width: 52%;
     height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    align-items: center;
+    align-items: flex-start;
+    align-content: flex-start;
 }
 
 .ag22 {
-    width: 42%;
+    width: 40%;
     height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    align-items: center;
+    align-items: flex-start;
 }
 
 .ag211,
@@ -877,4 +877,155 @@ h5 {
 .ag212 img {
     width: 20px;
     height: 20px;
+}
+
+
+/*code pour le septieme bloque*/
+
+.bloque7 {
+    height: 80vh;
+    width: 100vw;
+    background-color: #ae3e53;
+    text-align: left;
+    padding: 100px 0px;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sep1 {
+    width: 95vw;
+    height: 10%;
+}
+
+.sep1 h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    margin: 0px 0px 50px;
+    font-weight: 700;
+    text-decoration: none solid rgb(255, 255, 255);
+    text-align: center;
+    width: 100%;
+    text-transform: none;
+    font-weight: bold;
+    color: #fff;
+}
+
+.sep2 {
+    width: 95vw;
+    height: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.sep3 {
+    width: 95vw;
+    height: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+}
+
+.sep3 a {
+    background: #d92950;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 15px 25px;
+    vertical-align: middle;
+    font-size: 20px;
+    font-family: "Roboto", sans-serif;
+    height: 60px;
+    width: 250px;
+    border-radius: 15px;
+    font-weight: 700;
+    font-style: normal;
+    text-decoration: none solid rgb(255, 255, 255);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sep21,
+.sep22,
+.sep23,
+.sep24 {
+    background-color: #aeefee;
+    width: 20%;
+    height: 80%;
+    align-self: center;
+}
+
+
+/* huitieme bloque*/
+
+.bloque8 {
+    height: 140vh;
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(241, 240, 243);
+    background-size: cover;
+    text-align: left;
+    text-decoration: none solid rgb(66, 67, 69);
+    font-weight: 400;
+    padding: 100px 30px;
+    vertical-align: baseline;
+    line-height: 24px;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    color: rgba(66, 67, 69)
+}
+
+.malou1 {
+    width: 47%;
+    height: 97%;
+    background-color: black;
+}
+
+.malou2 {
+    width: 47%;
+    height: 97%;
+    background-color: #ffe64d;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.malou21,
+.malou22,
+.malou23,
+.malou24 {
+    width: 49%;
+    height: 47%;
+    background-color: #fff;
+}
+
+
+/*code pour le bloque 9 */
+
+.bloque9 {
+    height: 60vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(241, 240, 243);
+    background-size: cover;
+    text-align: left;
+    text-decoration: none solid rgb(66, 67, 69);
+    font-weight: 400;
+    padding: 100px 30px;
+    vertical-align: baseline;
+    line-height: 24px;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    color: rgba(66, 67, 69)
 }
