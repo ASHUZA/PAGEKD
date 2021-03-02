@@ -446,7 +446,6 @@ h5 {
 /*code pur troisieme bloque*/
 
 .bloque3 {
-    height: 80vh;
     width: 100vw;
     background-color: rgb(217, 41, 80);
     text-align: left;
@@ -488,7 +487,13 @@ h5 {
     height: 50%;
     display: flex;
     flex-direction: row;
+    align-items: center;
     justify-content: space-between;
+    align-items: center;
+}
+
+.bloq2 div {
+    display: flex;
     align-items: center;
 }
 
@@ -516,7 +521,6 @@ h5 {
 /*code pour quatrleme bloque*/
 
 .bloque4 {
-    height: 90vh;
     width: 100vw;
     background-color: rgb(241, 240, 243);
     text-align: left;
@@ -560,15 +564,14 @@ h5 {
     height: 60%;
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
-    align-items: center;
-    margin-top: 50px;
+    justify-content: space-evenly;
+    margin: 20px;
 }
 
 .boul21,
 .boul22 {
-    width: 600px;
-    height: 400px;
+    width: 45%;
+    height: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -589,9 +592,13 @@ h5 {
     background-color: #db4b50;
 }
 
+.boul22 .boul22 {
+    width: 100%;
+}
+
 .boul212,
 .boul222 {
-    width: 600px;
+    width: 100%;
     height: 250px;
     background-color: rgb(255, 255, 255);
     padding: 20px;
@@ -675,7 +682,7 @@ h5 {
 }
 
 .bloque5 h1 {
-    font-family: 'Mntserrat', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 40px;
     margin: 0px 0px 50px;
     font-weight: 700;
@@ -812,11 +819,6 @@ h5 {
 .ag21 {
     width: 52%;
     height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: flex-start;
-    align-content: flex-start;
 }
 
 .ag22 {
@@ -858,14 +860,25 @@ h5 {
 .ag212,
 .ag222 {
     width: 100%;
-    height: 60%;
+    height: 80%;
+    margin-bottom: 10%;
     background-color: #f1f0f3;
+    display: flex;
+    align-items: center;
+}
+
+.ag2221 {
+    width: 90%;
+    height: 90%;
+    background-color: #dfdee1;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .ag212 {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -874,9 +887,40 @@ h5 {
     height: 30%;
 }
 
+.ag212 .agn p {
+    width: 25%;
+    height: 30%;
+    color: #424345;
+    font-family: 'Ubuntu Mono';
+    font-weight: 400;
+    text-align: center;
+    margin: 0px 0px 16px;
+    margin-left: 50%;
+    position: relative;
+    transform: rotateX(-50%);
+}
+
 .ag212 img {
-    width: 20px;
-    height: 20px;
+    width: 40px;
+    height: 40px;
+    margin-left: 50%;
+    position: relative;
+    transform: rotateX(-50%);
+}
+
+.ag2221 li {
+    color: #424345;
+    font-family: "Ubuntu Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+    text-decoration: none solid rgb(66, 67, 69);
+    text-align: left;
+    font-size: 16px;
+    line-height: 24px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
@@ -1161,18 +1205,80 @@ h5 {
 /*code pour le douxieme bloque*/
 
 .bloque12 {
-    height: 50vh;
+    height: 120vh;
     width: 100vw;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     background-color: #111111;
-    background-size: cover;
+    /*   background-size: cover; */
     text-align: left;
     font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.arn1 {}
+.arn1 {
+    width: 80vw;
+    height: 20%;
+    background-color: blue;
+}
 
-.arn2 {}
+.arn1 h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    margin: 0px 0px 50px;
+    text-align: center;
+    font-weight: bold;
+    margin-left: 50%;
+    margin-top: 5%;
+    position: relative;
+    transform: translateX(-50%);
+    align-self: center;
+    text-transform: none;
+}
+
+.arn2 {
+    width: 90%;
+    height: 70%;
+    background-color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.arn21,
+.arn22,
+.arn23,
+.arn24 {
+    width: 29%;
+    height: 250px;
+    background-color: green;
+}
+
+.arn24 {
+    align-self: center;
+}
+
+.arn21 h4,
+.arn22 h4,
+.arn23 h4,
+.arn24 h4 {
+    color: #424345;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: left;
+    text-decoration: none solid rgb(66, 67, 69);
+}
+
+.arn21 p,
+.arn22 p,
+.arn23 p,
+.arn24 p {
+    /* color: #424345;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    text-align: left;
+    font-weight: 400;
+*/
+}
